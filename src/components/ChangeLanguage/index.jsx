@@ -1,18 +1,16 @@
 import { changeLanguage } from 'i18next'
-import React, { useContext } from 'react'
-import { Context } from '../../utils/Store'
+import React from 'react'
+import { Flag, FlagButton, LanguageButtonContainer } from './ChangeLanguage.styles'
 
 
 const ChangeLanguage = () => {
 
-    const [theme, changeTheme] = useContext(Context)
 
     return (
-        <>
-            <button onClick={() => changeLanguage('es')}>🇪🇸</button>
-            <button onClick={() => changeLanguage('en')}>🇺🇸</button>
-            <button onClick={changeTheme}>{theme}</button>
-        </>
+        <LanguageButtonContainer>
+            <FlagButton onClick={() => changeLanguage('es')}><Flag src={'https://flagicons.lipis.dev/flags/4x3/uy.svg'} /></FlagButton>
+            <FlagButton onClick={() => changeLanguage('en')}><Flag src={'https://flagicons.lipis.dev/flags/4x3/us.svg'} /></FlagButton>
+        </LanguageButtonContainer>
     )
 }
 

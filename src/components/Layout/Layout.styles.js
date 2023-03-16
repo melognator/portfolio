@@ -6,3 +6,7 @@ export const GlobalStyle = createGlobalStyle`
         color: ${({theme}) => theme.foreground}
     }
 `
+
+export const NavbarFiller = styled.div`
+    height: 72px;
+`

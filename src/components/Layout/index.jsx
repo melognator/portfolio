@@ -4,7 +4,7 @@ import { ThemeProvider } from 'styled-components'
 import { Context } from '../../utils/Store'
 import ChangeLanguage from '../ChangeLanguage'
 import Navbar from '../Navbar'
-import { GlobalStyle } from './Layout.styles'
+import { GlobalStyle, NavbarFiller } from './Layout.styles'
 
 const Layout = () => {
 
@@ -32,8 +32,8 @@ const Layout = () => {
         <ThemeProvider theme={themeContent}>
             <GlobalStyle />
             <Navbar />
+            <NavbarFiller />
             <Outlet />
-            <ChangeLanguage />
         </ThemeProvider>
     )
 }

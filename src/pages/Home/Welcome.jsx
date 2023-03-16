@@ -19,6 +19,7 @@ const Welcome = () => {
                                     t('home_skill1'),
                                     t('home_skill2'),
                                     t('home_skill3'),
+                                    t('home_skill4'),
                                 ],
                                 autoStart: true,
                                 deleteSpeed: 100,

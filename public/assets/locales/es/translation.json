@@ -5,5 +5,9 @@
     "home_skill1": "programar",
     "home_skill2": "diseñar",
     "home_skill3": "trabajar en equipo",
-    "home_text": "¡Bienvenido a mi portafolio! Me llamo <0>{{- name}}</0> pero me puedes decir {{surname}}. Aquí abajo encontrarás proyectos en los que he trabajado e información sobre mí, entre otras cosas."
+    "home_skill4": "aprender",
+    "home_text": "¡Bienvenido a mi portafolio! Me llamo <0>{{- name}}</0> pero me puedes decir {{surname}}. Aquí abajo encontrarás proyectos en los que he trabajado e información sobre mí, entre otras cosas.",
+    "menu_lang": "Idioma",
+    "darkmode_label": "Modo oscuro",
+    "lightmode_label": "Flashbang"
 }

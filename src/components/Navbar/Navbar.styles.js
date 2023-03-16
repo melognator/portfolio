@@ -1,15 +1,28 @@
-import styled from 'styled-components'
+import styled, { css } from 'styled-components'
 import { MaxWidth, PlainLink } from '../Common.styles'
 
+export const ButtonHover = css`
+    &:hover {
+        background-color: ${({ theme }) => theme.foreground + '10'};
+        transition: background-color 100ms linear;
+    }
+
+    &:active {
+        background-color: ${({ theme }) => theme.foreground + '20'};
+        /* transition: background-color 100ms linear; */
+    }
+`
+
 export const NavbarWrapper = styled.nav`
-    position: sticky;
+    position: fixed;
+    backdrop-filter: blur(4px);
     
+    width: 100%;
     top: 0px;
     left: 0px;
     padding: 15px 0;
-    backdrop-filter: blur(2px);
     box-shadow: 0 2px 2.5px rgba(0,0,0,0.25);
-`
+    `
 
 export const NavbarContainer = styled.div`
     ${MaxWidth};
@@ -37,8 +50,5 @@ export const HamburguerButton = styled.button`
     width: 42px;
     border-radius: 2px;
     
-    &:hover {
-        background-color: ${({theme}) => theme.foreground + '10'};
-        transition: background-color 100ms linear;
-    }
+    ${ButtonHover};
 `
