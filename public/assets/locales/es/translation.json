@@ -1,0 +1,9 @@
+{
+    "home_label": "Inicio",
+    "home_title": "Soy un desarrollador Frontend",
+    "home_skills": "Me gusta",
+    "home_skill1": "programar",
+    "home_skill2": "diseñar",
+    "home_skill3": "trabajar en equipo",
+    "home_text": "¡Bienvenido a mi portafolio! Me llamo <0>{{- name}}</0> pero me puedes decir {{surname}}. Aquí abajo encontrarás proyectos en los que he trabajado e información sobre mí, entre otras cosas."
+}
