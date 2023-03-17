@@ -13,13 +13,13 @@ i18n
     .use(LanguageDetector)
     .use(HttpApi)
     .init({
-        supportedLngs: ['en', 'es'],
+        supportedLngs: ['en', 'es', 'cl'],
         backend: {
             loadPath: '/assets/locales/{{lng}}/translation.json',
         },
         detection: {
-            order: ['cookie', 'htmlTag', 'localStorage', 'path', 'subdomain'],
-            caches: ['cookie']
+            order: ['cookie', 'localStorage', 'navigator', 'path', 'subdomain'],
+            caches: ['cookie', 'localStorage']
         },
         // react: {
         //     useSuspense: false

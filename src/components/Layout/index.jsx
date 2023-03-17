@@ -14,16 +14,19 @@ const Layout = () => {
         switch (theme) {
             case "dark":
                 return {
+                    name: "dark",
                     background: "#1e1e20",
                     foreground: "#f5f5f5",
                     light_foreground: "#a0a0a0",
-
+                    primary: '#3c98e8',
                 }
             case "light":
                 return {
+                    name: "light",
                     background: "#f5f5f5",
                     foreground: "#1e1e20",
                     light_foreground: "#808080",
+                    primary: '#3c98e8',
                 }
         }
     }

@@ -1,5 +1,7 @@
 {
     "home_label": "Home",
+    "skills_label": "Skills",
+    "projects_label": "Projects",
     "home_title": "I'm a Frontend Developer",
     "home_skills": "I love to",
     "home_skill1": "code",

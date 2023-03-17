@@ -1,13 +1,14 @@
 import React from 'react'
 import { Trans, useTranslation } from 'react-i18next';
 import TypewriterComponent from 'typewriter-effect';
-import { HomeText, HomeTitle, SectionContainer, SkillsContainer, SkillSpan, Strong } from './Home.styles'
+import { HomeText, SectionContainer, SkillsContainer, SkillSpan, Strong } from '../Home.styles'
+import { WelcomeTitle } from './Welcome.styles';
 
 const Welcome = () => {
     const { t } = useTranslation();
     return (
         <SectionContainer>
-            <HomeTitle>
+            <WelcomeTitle>
                 {t('home_title')}<br />
                 <SkillsContainer>
                     <span>{t('home_skills')}{'\u00A0'}</span>
@@ -29,7 +30,7 @@ const Welcome = () => {
                         />
                     </SkillSpan>
                 </SkillsContainer>
-            </HomeTitle>
+            </WelcomeTitle>
             <HomeText>
                 <Trans 
                 i18nKey="home_text"

@@ -1,10 +1,10 @@
-import { faHome, faMoon } from '@fortawesome/free-solid-svg-icons'
+import { faCode, faHome, faMoon, faWandMagicSparkles } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React, { useContext } from 'react'
 import { useTranslation } from 'react-i18next'
 import { MenuButton } from './Menu.styles'
 import { Context } from '../../utils/Store'
-import { scrollToTop } from '../../utils/scroll'
+import { scrollToId, scrollToTop } from '../../utils/scroll'
 
 const MenuBody = ({toggleExpanded}) => {
 
@@ -22,6 +22,22 @@ const MenuBody = ({toggleExpanded}) => {
             }
         },
         {
+            label: t("skills_label"),
+            icon: faWandMagicSparkles,
+            action: () => {
+                scrollToId('skills')
+                toggleExpanded()
+            }
+        },
+        {
+            label: t("projects_label"),
+            icon: faCode,
+            action: () => {
+                scrollToId('projects')
+                toggleExpanded()
+            }
+        },
+        {
             label: theme !== 'dark' ? t("darkmode_label") : t("lightmode_label"),
             icon: faMoon,
             action: () => {changeTheme()}
@@ -31,7 +47,7 @@ const MenuBody = ({toggleExpanded}) => {
     return (
         <>
             {links.map(link =>
-                <MenuButton onClick={link.action}>
+                <MenuButton key={link.label} onClick={link.action}>
                     <FontAwesomeIcon icon={link.icon} />
                     <span>{link.label}</span>
                 </MenuButton>

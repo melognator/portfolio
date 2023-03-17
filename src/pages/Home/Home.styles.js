@@ -7,12 +7,7 @@ export const PageWrapper = styled.main`
 
 export const SectionContainer = styled.section`
     ${MaxWidth};
-    margin: 100px auto;
-`
-
-export const HomeTitle = styled.h2`
-    font-size: 64px;
-    font-weight: 400;
+    margin: 120px auto;
 `
 
 export const SkillsContainer = styled.div`
@@ -34,11 +29,44 @@ export const HomeText = styled.p`
 
 export const SkillSpan = styled.span`
     & .Typewriter__wrapper {
-        color: #3c98e8;
+        color: ${({theme}) => theme.primary};
     }
 `
 
 export const Strong = styled.strong`
-    color: #3c98e8;
+    color: ${({theme}) => theme.primary};
     font-weight: 500;
+`
+
+export const TitleContainer = styled.div`
+    display: flex;
+    justify-content: center;
+    position: relative;
+`
+
+export const Title = styled.h2`
+    position: relative;
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: 500;
+    z-index: 2;
+
+    margin-bottom: 5rem;
+`
+
+export const CenteredSection = styled(SectionContainer)`
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+`
+
+export const TitleDecoration = styled.span`
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    height: 10px;
+    bottom: 2px;
+    right: -10px;
+    opacity: 0.75;
+    background-color: ${({theme}) => theme.primary};
 `
