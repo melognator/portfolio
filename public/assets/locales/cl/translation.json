@@ -8,8 +8,11 @@
     "home_skill2": "diseñar",
     "home_skill3": "trabajar en equipo",
     "home_skill4": "aprender",
-    "home_text": "¡Wena po hermano! Me dicen <0>{{- name}}</0> pero me podí decir como querai. Aquí abajo vai a encontrar proyectos en los que trabajé e información sobre mí, entre otras weas.",
+    "home_text": "¡Wena po hermano! Me dicen <0>{{- name}}</0> pero me podí decir como querai. Aquí abajito vai a encontrar las cosas en las que he trabajado y un par de datos interesantes de mi persona, entre otras cuestiones.",
     "menu_lang": "Idioma",
     "darkmode_label": "Modo oscuro",
-    "lightmode_label": "Flashbang"
+    "lightmode_label": "Flashbang",
+
+    "rizpilko_description": "Cachai que hay una app web que es la raja pa ser más eficiente? Tiene to-do list, calendario, control de tiempo, timer podomoro y diario personal. \n\nLa parte techera la hice con Python, usé SQLite y Flask. Además, hice una RESTful API y pa iniciar sesión usé Google OAuth2. En cuanto al frontend, lo hice con HTML, CSS y JS vanilla. Lo dejé alojado en Replit.",
+    "digitalbooking_description": "Para el primer track del curso de Certified Tech Developer de DigitalHouse, hicimos una página pa arrendar autos por un rato. \n\nYo cacho harto de Frontend y le metí weno ahí, pero igual ayudé a los compadres cuando se atascaron en Backend, Testing e Infraestructura. \n\nPal Frontend usamos React, Redux y Styled Components, quedó filete la cuestión."
 }

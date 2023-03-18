@@ -7,7 +7,10 @@ export const PageWrapper = styled.main`
 
 export const SectionContainer = styled.section`
     ${MaxWidth};
-    margin: 120px auto;
+    margin: 80px auto;
+    @media (min-width: ${breakpoints.tablet}) {
+        margin: 120px auto;
+    }
 `
 
 export const SkillsContainer = styled.div`
@@ -17,11 +20,14 @@ export const SkillsContainer = styled.div`
 
 export const HomeText = styled.p`
     color: ${({theme}) => theme.light_foreground};
-    font-size: 24px;
+    font-size: 20px;
     margin-top: 20px;
     width: 100%;
     font-weight: 300;
 
+    @media (min-width: ${breakpoints.tablet}) {
+        font-size: 24px;
+    }
     @media (min-width: ${breakpoints.laptop}) {
         max-width: 70%;
     }

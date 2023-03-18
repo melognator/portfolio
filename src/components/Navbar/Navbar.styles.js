@@ -17,6 +17,7 @@ export const NavbarWrapper = styled.nav`
     position: fixed;
     backdrop-filter: blur(4px);
     
+    z-index:5;
     width: 100%;
     top: 0px;
     left: 0px;

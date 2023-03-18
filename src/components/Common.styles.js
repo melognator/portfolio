@@ -3,7 +3,8 @@ import styled, { css } from "styled-components"
 
 export const breakpoints = {
     tablet: '640px',
-    laptop: '1280px'
+    laptop: '1280px',
+    bigTablet: '820px'
 }
 
 
