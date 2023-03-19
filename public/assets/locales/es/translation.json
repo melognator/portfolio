@@ -2,6 +2,9 @@
     "home_label": "Inicio",
     "skills_label": "Skills",
     "projects_label": "Proyectos",
+    "about_label": "Sobre mi",
+    "contact_label": "Contáctame",
+    "resume_label": "Currículum Vitae",
     "home_title": "Soy un desarrollador Frontend",
     "home_skills": "Me gusta",
     "home_skill1": "programar",
@@ -9,9 +12,10 @@
     "home_skill3": "trabajar en equipo",
     "home_skill4": "aprender",
     "home_text": "¡Bienvenido a mi portafolio! Me llamo <0>{{- name}}</0> pero me puedes decir {{surname}}. Aquí abajo encontrarás proyectos en los que he trabajado e información sobre mí, entre otras cosas.",
-    "menu_lang": "Idioma",
+    "menu_lang": "Español",
     "darkmode_label": "Modo oscuro",
     "lightmode_label": "Flashbang",
+    "resume_link": "https://cv.melogno.lol",
 
     "rizpilko_description": "Aplicación web de productividad. Incluye lista de tareas, calendario, gestor de tiempo, temporizador podomoro y diario personal. \n\nBackend desarrollado en Python, utilizando SQLite y Flask. RESTful API. Login con Google OAuth2. Frontend desarrollado con HTML, CSS y JS vanilla. Host en replit.",
     "digitalbooking_description": "Proyecto integrador del primer track de la carrera Certified Tech Developer de DigitalHouse. El proyecto consistió en realizar una página web de alquiler temporario de vehículos. \n\nMe encargué principalmente del Frontend, aunque procuré siempre ayudar a mis compañeros en Backend, Testing e Infraestructura cuando estuvieron trancados. \n\nFrontend desarrollado con React, Redux, Styled Components."

@@ -2,6 +2,9 @@
     "home_label": "Inicio",
     "skills_label": "Skills",
     "projects_label": "Proyectos",
+    "about_label": "Sobre mi",
+    "contact_label": "Contáctame po",
+    "resume_label": "Currículum Vitae",
     "home_title": "Soy un desarrollador Frontend",
     "home_skills": "Ta weno",
     "home_skill1": "programar",
@@ -9,9 +12,10 @@
     "home_skill3": "trabajar en equipo",
     "home_skill4": "aprender",
     "home_text": "¡Wena po hermano! Me dicen <0>{{- name}}</0> pero me podí decir como querai. Aquí abajito vai a encontrar las cosas en las que he trabajado y un par de datos interesantes de mi persona, entre otras cuestiones.",
-    "menu_lang": "Idioma",
+    "menu_lang": "Viva Chile",
     "darkmode_label": "Modo oscuro",
     "lightmode_label": "Flashbang",
+    "resume_link": "https://cv.melogno.lol",
 
     "rizpilko_description": "Cachai que hay una app web que es la raja pa ser más eficiente? Tiene to-do list, calendario, control de tiempo, timer podomoro y diario personal. \n\nLa parte techera la hice con Python, usé SQLite y Flask. Además, hice una RESTful API y pa iniciar sesión usé Google OAuth2. En cuanto al frontend, lo hice con HTML, CSS y JS vanilla. Lo dejé alojado en Replit.",
     "digitalbooking_description": "Para el primer track del curso de Certified Tech Developer de DigitalHouse, hicimos una página pa arrendar autos por un rato. \n\nYo cacho harto de Frontend y le metí weno ahí, pero igual ayudé a los compadres cuando se atascaron en Backend, Testing e Infraestructura. \n\nPal Frontend usamos React, Redux y Styled Components, quedó filete la cuestión."

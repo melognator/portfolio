@@ -1,4 +1,4 @@
-import { faCode, faHome, faMoon, faWandMagicSparkles } from '@fortawesome/free-solid-svg-icons'
+import { faCode, faHome, faMoon, faPaperPlane, faUser, faWandMagicSparkles } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React, { useContext } from 'react'
 import { useTranslation } from 'react-i18next'
@@ -34,6 +34,22 @@ const MenuBody = ({toggleExpanded}) => {
             icon: faCode,
             action: () => {
                 scrollToId('projects')
+                toggleExpanded()
+            }
+        },
+        {
+            label: t("about_label"),
+            icon: faUser,
+            action: () => {
+                scrollToId('about')
+                toggleExpanded()
+            }
+        },
+        {
+            label: t("contact_label"),
+            icon: faPaperPlane,
+            action: () => {
+                scrollToId('contact')
                 toggleExpanded()
             }
         },

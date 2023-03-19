@@ -1,8 +1,11 @@
+import { faPaperPlane, faUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react'
 import { Trans, useTranslation } from 'react-i18next';
 import TypewriterComponent from 'typewriter-effect';
+import { scrollToId } from '../../../utils/scroll';
 import { HomeText, SectionContainer, SkillsContainer, SkillSpan, Strong } from '../Home.styles'
-import { WelcomeTitle } from './Welcome.styles';
+import { WelcomeButton, WelcomeButtonFilled, WelcomeButtons, WelcomeTitle } from './Welcome.styles';
 
 const Welcome = () => {
     const { t } = useTranslation();
@@ -43,6 +46,16 @@ const Welcome = () => {
                 }
                  />
             </HomeText>
+            <WelcomeButtons>
+                <WelcomeButtonFilled onClick={() => scrollToId('contact')}>
+                    <FontAwesomeIcon icon={faPaperPlane} />
+                    <span>{t('contact_label')}</span>
+                </WelcomeButtonFilled>
+                <WelcomeButton target={'_blank'} href={t('resume_link')}>
+                    <FontAwesomeIcon icon={faUpRightFromSquare} />
+                    <span>{t('resume_label')}</span>
+                </WelcomeButton>
+            </WelcomeButtons>
         </SectionContainer>
     )
 }

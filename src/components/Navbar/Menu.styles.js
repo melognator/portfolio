@@ -80,7 +80,7 @@ export const MenuButton = styled.button`
     display: flex;
     gap: 10px;
     align-items: center;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     text-align: left;
 
     ${ButtonHover};
