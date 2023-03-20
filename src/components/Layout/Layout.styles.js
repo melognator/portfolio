@@ -9,8 +9,13 @@ export const GlobalStyle = createGlobalStyle`
         }
     }
 
-    body, button {
+    body {
         background-color: ${({theme}) => theme.background};
+        color: ${({theme}) => theme.foreground}
+    }
+
+    button {
+        background-color: transparent;
         color: ${({theme}) => theme.foreground}
     }
 `
