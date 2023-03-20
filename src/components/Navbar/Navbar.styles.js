@@ -5,7 +5,7 @@ export const ButtonHover = css`
     &:hover {
         background-color: ${({ theme }) => theme.foreground + '10'};
         transition: background-color 100ms linear;
-    }
+    }   
 
     &:active {
         background-color: ${({ theme }) => theme.foreground + '20'};

@@ -10,13 +10,30 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     body {
-        background-color: ${({theme}) => theme.background};
-        color: ${({theme}) => theme.foreground}
+        background-color: ${({ theme }) => theme.background};
+        color: ${({ theme }) => theme.foreground}
     }
 
     button {
         background-color: transparent;
-        color: ${({theme}) => theme.foreground}
+        color: ${({ theme }) => theme.foreground}
+    }
+
+    ::-webkit-scrollbar {
+        width: 4px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background: transparent;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        border-radius: 2px;
+        background: ${({theme}) => theme.light_foreground};
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: #555;
     }
 `
 

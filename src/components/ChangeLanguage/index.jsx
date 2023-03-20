@@ -7,7 +7,7 @@ const ChangeLanguage = () => {
     return (
         <LanguageButtonContainer>
             <FlagButton title='es' onClick={() => changeLanguage('es')}><Flag src={'https://flagicons.lipis.dev/flags/4x3/uy.svg'} /></FlagButton>
-            <FlagButton title='cl' onClick={() => changeLanguage('cl')}><Flag src={'https://flagicons.lipis.dev/flags/4x3/cl.svg'} /></FlagButton>
+            {/* <FlagButton title='cl' onClick={() => changeLanguage('cl')}><Flag src={'https://flagicons.lipis.dev/flags/4x3/cl.svg'} /></FlagButton> */}
             <FlagButton title='en' onClick={() => changeLanguage('en')}><Flag src={'https://flagicons.lipis.dev/flags/4x3/us.svg'} /></FlagButton>
         </LanguageButtonContainer>
     )

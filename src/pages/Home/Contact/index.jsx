@@ -1,6 +1,7 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
 import { CenteredSection, Title, TitleContainer, TitleDecoration } from '../Home.styles'
+import ContactForm from './ContactForm'
 
 const Contact = () => {
     const { t } = useTranslation()
@@ -13,7 +14,7 @@ const Contact = () => {
                     <TitleDecoration />
                 </Title>
             </TitleContainer>
-
+            <ContactForm />
         </CenteredSection>
     )
 }
