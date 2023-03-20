@@ -1,4 +1,4 @@
-import { useNavigate } from "react-router-dom"
+import { Navigate } from "react-router-dom"
 import HomePage from "./pages/Home/HomePage"
 
 const routes = [
@@ -14,7 +14,7 @@ const routes = [
         "key": "notfound",
         "label": "",
         "path": "*",
-        "element": <div>Not found</div>
+        "element": <Navigate to='/' />
     }
 ]
 
