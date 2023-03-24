@@ -61,19 +61,19 @@ const ContactForm = () => {
             <InputGroup>
                 <label htmlFor="email">{t('email_label')}</label>
                 <InputContainer>
-                    <input value={state.email} onChange={handleChange} autoComplete='off' required={true} type="email" name="email" />
+                    <input id='email' value={state.email} onChange={handleChange} autoComplete='off' required={true} type="email" name="email" />
                 </InputContainer>
             </InputGroup>
             <InputGroup>
                 <label htmlFor="name">{t('emailname_label')}</label>
                 <InputContainer>
-                    <input value={state.name} onChange={handleChange} autoComplete='off' required={true} type="text" name="name" />
+                    <input id='name' value={state.name} onChange={handleChange} autoComplete='off' required={true} type="text" name="name" />
                 </InputContainer>
             </InputGroup>
             <InputGroup>
                 <label value={state.message} htmlFor="message">{t('emailcontent_label')}</label>
                 <InputContainer>
-                    <textarea value={state.message} onChange={handleChange} autoComplete='off' required={true} name="message" />
+                    <textarea id='message' value={state.message} onChange={handleChange} autoComplete='off' required={true} name="message" />
                 </InputContainer>
             </InputGroup>
             <SubmitButton>
