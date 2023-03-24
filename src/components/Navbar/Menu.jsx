@@ -14,7 +14,7 @@ const Menu = ({toggleExpanded}) => {
     return (
         <>
             <MenuHeader>
-                <HamburguerButton onClick={toggleExpanded}>
+                <HamburguerButton title={t('closebutton_label')} onClick={toggleExpanded}>
                     <FontAwesomeIcon fontSize={'20px'} icon={faXmark} />
                 </HamburguerButton>
                 <MenuTitle>Menu</MenuTitle>

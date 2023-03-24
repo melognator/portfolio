@@ -1,43 +1,43 @@
 const skills = [
     {
         title: "React",
-        img: "/assets/img/react.svg"
+        img: "/assets/img/icons/react.svg"
     },
     {
         title: "HTML",
-        img: "/assets/img/html.svg"
+        img: "/assets/img/icons/html.svg"
     },
     {
         title: "CSS",
-        img: "/assets/img/css.svg"
+        img: "/assets/img/icons/css.svg"
     },
     {
         title: "Javascript",
-        img: "/assets/img/javascript.svg"
+        img: "/assets/img/icons/javascript.svg"
     },
     {
         title: "Node",
-        img: "/assets/img/node.svg"
+        img: "/assets/img/icons/node.svg"
     },
     {
         title: "Styled",
-        img: "/assets/img/styled.svg"
+        img: "/assets/img/icons/styled.svg"
     },
     {
         title: "Redux",
-        img: "/assets/img/redux.svg"
+        img: "/assets/img/icons/redux.svg"
     },
     {
         title: "Git",
-        img: "/assets/img/git.svg"
+        img: "/assets/img/icons/git.svg"
     },
     {
         title: "Java",
-        img: "/assets/img/java.svg"
+        img: "/assets/img/icons/java.svg"
     },
     {
         title: "Python",
-        img: "/assets/img/python.svg"
+        img: "/assets/img/icons/python.svg"
     },
 
 ]

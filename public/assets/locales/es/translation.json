@@ -27,5 +27,9 @@
     "emailcontent_label": "Mensaje",
     "sendemail_label": "Enviar mensaje",
 
-    "success_message": "El mensaje se ha enviado exitósamente."
+    "success_message": "El mensaje se ha enviado exitósamente.",
+
+    "hamburguer_label": "Botón del menú",
+    "closebutton_label": "Cerrar menú",
+    "about_alt": "Ezequiel sentado, plantas de fondo"
 }

@@ -18,7 +18,7 @@ const About = () => {
             <AboutContainer>
                 <p>{t('about_me')}</p>
                 <ImageContainer>
-                    <img src='/assets/img/ezequielmelogno.jpg' />
+                    <img alt={t('about_alt')} src='/assets/img/ezequielmelogno.webp' />
                 </ImageContainer>
             </AboutContainer>
         </CenteredSection>

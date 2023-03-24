@@ -9,11 +9,11 @@ const Project = ({ right, project }) => {
         <ProjectContainer right={right}>
             <ProjectImages target='blank' href={project.site}>
                 <ProjectDesktopImage>
-                    <img src={project.img} />
+                    <img alt={project.alt + " - Desktop"} src={project.img} />
                     <ImageDecoration />
                 </ProjectDesktopImage>
                 <ProjectPhoneImage>
-                    <img src={project.phone_img} />
+                    <img alt={project.alt + " - Mobile"} src={project.phone_img} />
                 </ProjectPhoneImage>
             </ProjectImages>
             <ProjectInformation right={right}>
