@@ -53,7 +53,6 @@ const Welcome = () => {
                     </HomeText>
                 </WelcomeTextContainer>
                 <WelcomeHeaderButtons>
-                    
                     <SquareButton title={'GitHub'} target={'blank'} href={links.github}>
                         <FontAwesomeIcon alt={'github'} icon={faGithub} />
                     </SquareButton>

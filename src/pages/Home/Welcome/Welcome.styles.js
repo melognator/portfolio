@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 import { breakpoints } from "../../../components/Common.styles";
 import { ButtonHover } from "../../../components/Navbar/Navbar.styles";
 
@@ -24,11 +24,7 @@ export const WelcomeButtons = styled.div`
     }
 `
 
-export const WelcomeButton = styled.a`
-    text-decoration: none;
-    background-color: ${({ theme }) => theme.background};
-    border: 1px solid ${({ theme }) => theme.primary};
-    color: ${({ theme }) => theme.foreground};
+const ButtonStyles = css`
     cursor: pointer;
     border-radius: 2px;
     font-size: 24px;
@@ -38,10 +34,7 @@ export const WelcomeButton = styled.a`
     align-items: center;
     gap: 10px;
     transition: all 200ms;
-    &:hover {
-        background-color: ${({ theme }) => theme.primary};
-        color: white;
-    }
+    
     & > span {
         text-transform: uppercase;
         font-size: 18px;
@@ -52,11 +45,25 @@ export const WelcomeButton = styled.a`
     }
 `
 
-export const WelcomeButtonFilled = styled(WelcomeButton)`
+export const WelcomeButton = styled.a`
+    ${ButtonStyles};
+    text-decoration: none;
+    background-color: ${({ theme }) => theme.background};
+    border: 1px solid ${({ theme }) => theme.primary};
+    color: ${({ theme }) => theme.foreground};
+    &:hover {
+        background-color: ${({ theme }) => theme.primary};
+        color: white;
+    }
+`
+
+export const WelcomeButtonFilled = styled.button`
+    ${ButtonStyles};
     background-color: ${({ theme }) => theme.primary};
     color: white;
+    filter: brightness(90%);
     &:hover {
-        filter: brightness(120%);
+        filter: brightness(100%);
     }
 `
 
