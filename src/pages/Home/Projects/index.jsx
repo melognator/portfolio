@@ -15,7 +15,7 @@ const Projects = () => {
             description: t('digitalbooking_description'),
             img: '/assets/img/digitalbooking.webp',
             phone_img: '/assets/img/digitalbooking_phone.webp',
-            // source: 'https://github.com/melognator/rizpilko',
+            source: 'https://github.com/melognator/digital-booking',
             site: 'http://dh.melogno.lol',
             alt: t('digitalbooking_alt'),
             color: '',
