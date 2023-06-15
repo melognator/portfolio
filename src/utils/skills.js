@@ -24,6 +24,10 @@ const skills = [
         img: "/assets/img/icons/styled.svg"
     },
     {
+        title: "Typescript",
+        img: "/assets/img/icons/typescript.svg"
+    },
+    {
         title: "Redux",
         img: "/assets/img/icons/redux.svg"
     },
@@ -38,6 +42,10 @@ const skills = [
     {
         title: "Python",
         img: "/assets/img/icons/python.svg"
+    },
+    {
+        title: "Docker",
+        img: "/assets/img/icons/docker.svg"
     },
 
 ]

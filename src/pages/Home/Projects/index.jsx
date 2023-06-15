@@ -31,6 +31,17 @@ const Projects = () => {
             alt: t('rizpilko_alt'),
             color: '',
         },
+        {
+            title: 'Project Ash',
+            subtitle: t('projectash_subtitle'),
+            description: t('projectash_description'),
+            img: '/assets/img/projectash.webp',
+            phone_img: '/assets/img/projectash_phone.webp',
+            source: 'https://github.com/melognator/project-ash',
+            site: 'https://ash.melogno.lol',
+            alt: t('projectash_alt'),
+            color: '',
+        },
     ]
 
     return (
