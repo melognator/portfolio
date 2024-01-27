@@ -17,10 +17,12 @@
     "lightmode_label": "Flashbang",
     "resume_link": "https://cv.melogno.lol",
 
+    "eventorica_description": "Encuentra cosas para hacer dondequiera que estés. \n\nEventórica es una aplicación web que permite a los usuarios encontrar lugares, actividades y eventos dentro de su ciudad. \n\nDesarrollado con Next.js, utilizando TypeScript. Backend desarrollado con Directus CMS. Host en Oracle Cloud.",
     "rizpilko_description": "Aplicación web de productividad. Incluye lista de tareas, calendario, gestor de tiempo, temporizador Pomodoro y diario personal. \n\nBackend desarrollado en Python, utilizando SQLite y Flask. RESTful API. Login con Google OAuth2. Frontend desarrollado con HTML, CSS y JS vanilla. Host en replit.",
     "digitalbooking_description": "Proyecto integrador del primer track de la carrera Certified Tech Developer de DigitalHouse. El proyecto consistió en realizar una página web de alquiler temporario de vehículos. \n\nMe encargué principalmente del Frontend, aunque procuré siempre ayudar a mis compañeros en Backend, Testing e Infraestructura cuando estuvieron trancados. \n\nFrontend desarrollado con React, Redux, Styled Components.",
     "projectash_description": "Proyecto que consistió en una serie de ejercicios para la materia de especialización en Frontend 1 de la carrera Certified Tech Developer. El sitio permite realizar solicitudes de atención para Pokémon heridos. \n\nBackend desarrollado en Java Spring con Maven. Frontend desarrollado con React, utilizando JSDoc para la documentación. Host en AWS.",
 
+    "eventorica_alt": "Foto de sitio web con listado de experiencias",
     "rizpilko_alt": "Foto de página de productividad",
     "digitalbooking_alt": "Foto de página de reserva de autos",
     "projectash_alt": "Foto de página con formulario de solicitud de atención Pokémon",

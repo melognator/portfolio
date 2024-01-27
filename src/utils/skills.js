@@ -4,6 +4,10 @@ const skills = [
         img: "/assets/img/icons/react.svg"
     },
     {
+        title: "Next",
+        img: "/assets/img/icons/next.svg"
+    },
+    {
         title: "HTML",
         img: "/assets/img/icons/html.svg"
     },
@@ -22,6 +26,10 @@ const skills = [
     {
         title: "Styled",
         img: "/assets/img/icons/styled.svg"
+    },
+    {
+        title: "Astro",
+        img: "/assets/img/icons/astro.svg"
     },
     {
         title: "Typescript",

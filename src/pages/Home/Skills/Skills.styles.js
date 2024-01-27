@@ -8,7 +8,7 @@ export const SkillsContainer = styled.div`
     margin: 0 20px;
     gap: 40px;
     @media (min-width: ${breakpoints.tablet}){
-        gap: 80px;
+        gap: 60px;
         margin: 0 90px;
     }
 

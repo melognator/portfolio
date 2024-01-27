@@ -10,6 +10,16 @@ const Projects = () => {
 
     const projects = [
         {
+            title: 'Eventorica',
+            subtitle: t('eventorica_subtitle'),
+            description: t('eventorica_description'),
+            img: '/assets/img/eventorica.webp',
+            phone_img: '/assets/img/eventorica_phone.webp',
+            site: 'https://eventorica.com',
+            alt: t('eventorica_alt'),
+            color: '',
+        },
+        {
             title: 'Digital Booking',
             subtitle: t('digitalbooking_subtitle'),
             description: t('digitalbooking_description'),

@@ -17,10 +17,12 @@
     "lightmode_label": "Flashbang",
     "resume_link": "https://resume.melogno.lol",
     
+    "eventorica_description": "Find things to do, wherever you are. \n\nEventorica is a web application that allows users to find places, activites and events near them. \n\nDeveloped with Next, using Typescript. Backend developed with Directus CMS. Hosted on Oracle Cloud.",
     "rizpilko_description": "Productivity web application. Includes task list, calendar, time manager, Pomodoro timer, and personal diary. \n\nBackend developed in Python, using SQLite and Flask. RESTful API. Login with Google OAuth2. Frontend developed with HTML, CSS, and vanilla JS. Hosted on Replit.",
     "digitalbooking_description": "Final proyect of the first track of DigitalHouse's Certified Tech Developer program. The project consisted of creating a website for temporary vehicle rental.\n\nI was mainly in charge of the Frontend, although I always made sure to help my teammates in Backend, Testing, and Infrastructure when they were stuck. \n\nFrontend developed with React, Redux, Styled Components.",
     "projectash_description": "Project that consisted of a series of exercises for the Frontend 1 specialization course of the Certified Tech Developer program. The website allows users to submit requests for injured Pokémon care.\n\nBackend developed in Java Spring with Maven. Frontend developed with React, using JSDoc for documentation. Hosted on AWS.",
 
+    "eventorica_alt": "Eventorica page screenshot",
     "rizpilko_alt": "Productivity page screenshot",
     "digitalbooking_alt": "Car reservation page screenshot",
     "projectash_alt": "Pokemon assistance form page screenshot",
