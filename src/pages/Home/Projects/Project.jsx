@@ -26,10 +26,13 @@ const Project = ({ right, project }) => {
                             <span>CODE</span>
                         </ProjectButton>
                     }
-                    <ProjectButton href={project.site} target='_blank'>
-                        <FontAwesomeIcon icon={faUpRightFromSquare} />
-                        <span>LIVE SITE</span>
-                    </ProjectButton>
+                    {
+                        project.site &&
+                        <ProjectButton href={project.site} target='_blank'>
+                            <FontAwesomeIcon icon={faUpRightFromSquare} />
+                            <span>LIVE SITE</span>
+                        </ProjectButton>
+                    }
                 </ProjectButtonsContainer>
             </ProjectInformation>
             {/* <ProjectCard>

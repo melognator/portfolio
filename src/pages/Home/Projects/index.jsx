@@ -9,16 +9,16 @@ const Projects = () => {
     const { t } = useTranslation()
 
     const projects = [
-        {
-            title: 'Eventorica',
-            subtitle: t('eventorica_subtitle'),
-            description: t('eventorica_description'),
-            img: '/assets/img/eventorica.webp',
-            phone_img: '/assets/img/eventorica_phone.webp',
-            site: 'https://eventorica.com',
-            alt: t('eventorica_alt'),
-            color: '',
-        },
+        // {
+        //     title: 'Eventorica',
+        //     subtitle: t('eventorica_subtitle'),
+        //     description: t('eventorica_description'),
+        //     img: '/assets/img/eventorica.webp',
+        //     phone_img: '/assets/img/eventorica_phone.webp',
+        //     // site: 'https://eventorica.com',
+        //     alt: t('eventorica_alt'),
+        //     color: '',
+        // },
         {
             title: 'Digital Booking',
             subtitle: t('digitalbooking_subtitle'),
@@ -26,7 +26,7 @@ const Projects = () => {
             img: '/assets/img/digitalbooking.webp',
             phone_img: '/assets/img/digitalbooking_phone.webp',
             source: 'https://github.com/melognator/digital-booking',
-            site: 'http://dh.melogno.lol',
+            // site: 'http://dh.melogno.lol',
             alt: t('digitalbooking_alt'),
             color: '',
         },
@@ -37,7 +37,7 @@ const Projects = () => {
             img: '/assets/img/rizpilko.webp',
             phone_img: '/assets/img/rizpilko_phone.webp',
             source: 'https://github.com/melognator/rizpilko',
-            site: 'https://rizpi.ezequielmelogno.repl.co',
+            // site: 'https://rizpi.ezequielmelogno.repl.co',
             alt: t('rizpilko_alt'),
             color: '',
         },
@@ -48,7 +48,7 @@ const Projects = () => {
             img: '/assets/img/projectash.webp',
             phone_img: '/assets/img/projectash_phone.webp',
             source: 'https://github.com/melognator/project-ash',
-            site: 'https://ash.melogno.lol',
+            // site: 'https://ash.melogno.lol',
             alt: t('projectash_alt'),
             color: '',
         },
