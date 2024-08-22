@@ -3,6 +3,8 @@ import { useTranslation } from 'react-i18next'
 import { CenteredSection, Title, TitleContainer, TitleDecoration } from '../Home.styles'
 import ProjectList from './ProjectList'
 import { ProjectListContainer } from './Projects.styles'
+import { faNpm } from '@fortawesome/free-brands-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Projects = () => {
 
@@ -19,6 +21,24 @@ const Projects = () => {
         //     alt: t('eventorica_alt'),
         //     color: '',
         // },
+        {
+            title: 'smallbang',
+            subtitle: t('smallbang_subtitle'),
+            description: t('smallbang_description'),
+            img: '/assets/img/smallbang.webp',
+            phone_img: '/assets/img/smallbang_phone.webp',
+            source: 'https://github.com/melognator/smallbang',
+            other_buttons: [
+                {
+                    url: 'https://www.npmjs.com/package/smallbang',
+                    text: 'PACKAGE',
+                    icon: <FontAwesomeIcon icon={faNpm} />,
+                },
+            ],
+            site: 'https://smallbang.vercel.app',
+            alt: t('smallbang_alt'),
+            color: '',
+        },
         {
             title: 'Digital Booking',
             subtitle: t('digitalbooking_subtitle'),

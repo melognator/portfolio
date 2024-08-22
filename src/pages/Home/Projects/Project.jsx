@@ -33,6 +33,15 @@ const Project = ({ right, project }) => {
                             <span>LIVE SITE</span>
                         </ProjectButton>
                     }
+                    {
+                        project.other_buttons &&
+                        project.other_buttons.map(button => (
+                            <ProjectButton href={button.url} target='_blank'>
+                                {button.icon}
+                                <span>{button.text}</span>
+                            </ProjectButton>
+                        ))
+                    }
                 </ProjectButtonsContainer>
             </ProjectInformation>
             {/* <ProjectCard>
